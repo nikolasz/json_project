@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversation</title>
+</head>
+<body>
+  <h1>Conversation</h1>
+  <ul>
+    {% for _, message in conversation.iterrows() %}
+      <li><strong>{{ message.create_time }} - {{ message.author_role }}:</strong> {{ message.content }}</li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('index') }}">Back to all conversations</a>
+</body>
+</html>
