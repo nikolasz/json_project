@@ -161,5 +161,3 @@ Testing: Consider adding tests to ensure that your script works as expected, esp
 
 Alternative Data Structures: While text files are a good start, they might not be the best format for complex, nested conversations. You might want to consider alternative data structures or formats that can preserve the tree structure of the conversations, such as XML or even a database, as you mentioned.
 '''
-
-
