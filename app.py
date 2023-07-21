@@ -33,3 +33,9 @@ def conversation(conversation_id):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+System Message:
+        User Profile: {...}
+        Additiona Instructions: {...}
+
