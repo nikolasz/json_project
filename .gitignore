@@ -1,4 +1,6 @@
 archive/
 html/
 json/
+*.html
+*.json
 ```
